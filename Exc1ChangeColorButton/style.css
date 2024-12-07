@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  transition: background-color 2s easy-in-out;
+
+  margin: 0;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(17, 16, 34, 0.8), rgba(20, 4, 40, 0.9));
+  flex-direction: column;
+
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  background: rgba(17, 16, 34, 0.3);
+  border: 1px;
+  padding: 8px 20px;
+  border-radius: 9px;
+  transition: all .3s easy-in-out;
+}
+
+button:hover {
+  transform: scale(1.02);
+}
+
+span {
+  font-size: 2rem;
+  font-weight: 900;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+  position: absolute;
+  top: 90%;
+  color: white;
+}
